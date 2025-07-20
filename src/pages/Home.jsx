@@ -8,7 +8,7 @@ import { useFetchDate } from "../useFetchDate";
 
 const Home = () => {
   const {
-    countrieslist,
+    results,
     isError,
     filterdCountries,
     isLoading,
@@ -23,11 +23,11 @@ const Home = () => {
         <>
           <div className="flex flex-col items-center gap-6 md:flex-row md:items-center md:gap-6 md:px-8 xl:justify-around">
             <SearchInput
-              countrieslist={countrieslist}
+              countrieslist={results}
               filterdCountriesList={setFilteredCountries}
             />
             <RegionMenu
-              countrieslist={countrieslist}
+              countrieslist={results}
               filterdCountriesList={setFilteredCountries}
             />
           </div>
