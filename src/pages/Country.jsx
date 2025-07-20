@@ -11,7 +11,7 @@ const Country = () => {
       {isLoading && <Loading />}
       {isError && <ShowMessage message={"Something Went wrong...!"} />}
       {!isLoading && !isError && (
-        <div className="mx-6 mx-auto rounded-2xl from-gray-700 to-gray-900 p-20 px-3 lg:px-6 lg:py-6 dark:bg-linear-to-r">
+        <div className="mx-6 rounded-2xl from-gray-700 to-gray-900 p-20 px-3 lg:px-6 lg:py-6 dark:bg-linear-to-r">
           <Link
             to="/"
             className="mb-16 inline-block rounded-md bg-white p-3 md:mb-20"
