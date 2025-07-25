@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
 import ThemeSwitcher from "./ThemeSwitcher";
-import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header = () => {
   return (
@@ -10,7 +9,7 @@ const Header = () => {
         <div className="flex h-20 items-center justify-between">
           <Logo />
           <div className="flex items-center gap-4">
-            <LanguageSwitcher />
+            {/* <LanguageSwitcher /> */}
             <ThemeSwitcher />
           </div>
         </div>
